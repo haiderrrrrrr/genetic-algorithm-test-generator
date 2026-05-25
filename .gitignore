@@ -1,0 +1,18 @@
+node_modules/
+.env
+*.log
+__pycache__/
+*.pyc
+.vs/
+Debug/
+Release/
+*.exe
+*.dll
+.venv/
+venv/
+
+# Generated output files - re-created on each run (root-level only)
+/seeded_evolved_test_cases.csv
+/nonseeded_final_evolved_test_cases.csv
+/LocalSearch.png
+/*.png
