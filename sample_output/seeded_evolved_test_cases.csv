@@ -1,0 +1,21 @@
+Date,Category,Fitness
+01/01/0000,Boundary: 01/01/0000,10.500
+31/12/9999,Boundary: 31/12/9999,10.500
+29/02/2020,Boundary: 29/02/2020,10.500
+28/02/1900,Boundary: 28/02/1900,10.500
+31/01/0000,Boundary: 31/01/0000,10.500
+31/01/2023,Valid: 31-day Month,10.250
+30/04/2022,Valid: 30-day Month,10.250
+28/02/2023,Valid: 28-day Feb (Non-Leap),10.250
+29/02/2024,Valid: 29-day Feb (Leap),10.250
+15/06/2021,Valid: Other,0.125
+00/06/2021,Invalid: Day < 1,10.333
+32/06/2021,Invalid: Day > 31,10.333
+15/00/2021,Invalid: Month < 1,10.333
+15/13/2021,Invalid: Month > 12,10.333
+15/06/-001,Invalid: Year < 0,10.333
+15/06/10000,Invalid: Year > 9999,10.333
+31/04/2022,Invalid: 30-day Month Exceeded,10.333
+32/01/2022,Invalid: 31-day Month Exceeded,10.333
+29/02/2023,Invalid: Feb > 28 in Non-Leap,10.333
+30/02/2024,Invalid: Feb > 29 in Leap,10.333
